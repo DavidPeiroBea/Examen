@@ -1,4 +1,5 @@
 #!bin/bash
+sudo apt install php-gd php-intl php-zip
 sudo wget https://download.moodle.org/download.php/stable405/moodle-latest-405.zip -O moodle.zip
 sudo unzip moodle.zip -d /var/www/moodle
 sudo chown -R root /var/www/moodle
